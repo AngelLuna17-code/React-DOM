@@ -1,5 +1,9 @@
-const Dashboard = () =>{
- return <h1>Dashboard</h1>;
-}
+const Dashboard = () => {
+    return (
+        <section>
+            <h1>Dashboard</h1>
+        </section>
+    );
+};
 
 export default Dashboard;

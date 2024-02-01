@@ -8,7 +8,6 @@ import Dashboard  from "./pages/Dashboard";
 function App() {
   return (
     <div>
-      <h1>Routes</h1>
       <Routes>
         <Route path="/" element={<Layout />}>
            <Route path="about" element={<About />} />

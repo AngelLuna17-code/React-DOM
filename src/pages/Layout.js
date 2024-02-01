@@ -1,8 +1,9 @@
 import { Outlet, Link } from "react-router-dom";
 
-const Layout = () =>{
- return <div>
-    <nav>
+const Layout = () => {
+  return (
+    <section>
+      <nav>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -14,10 +15,11 @@ const Layout = () =>{
             <Link to="/dashboard">Dashboard</Link>
           </li>
         </ul>
-    </nav>
-    <hr />
-    <Outlet />
- </div>;
-}
+      </nav>
+      <hr />
+      <Outlet />
+    </section>
+  );
+};
 
 export default Layout;
